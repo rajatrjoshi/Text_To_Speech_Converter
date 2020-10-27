@@ -34,8 +34,8 @@ def Reset():
     Msg.set("")
 
 # Define Buttons
-Button(root, text = "PLAY", font = 'arial 15 bold' , command = Text_to_Speech, width = '5', bg = 'Lightgreen').place(x = 25, y = 140)
-Button(root , font = 'arial 15 bold', text = 'EXIT', width = '5', command = Exit , bg = 'Red').place(x = 100, y = 140)
-Button(root, font = 'arial 15 bold', text = 'RESET', width = '5', command = Reset, bg = 'Orange').place(x = 175, y = 140)
+Button(root, text = "PLAY", font = 'arial 15 bold' , command = Text_to_Speech, width = '5',fg = 'white', bg = 'Lightgreen').place(x = 25, y = 140)
+Button(root , font = 'arial 15 bold', text = 'EXIT', width = '5', command = Exit ,fg = 'white', bg = 'Red').place(x = 100, y = 140)
+Button(root, font = 'arial 15 bold', text = 'RESET', width = '5', command = Reset,fg = 'white', bg = 'Orange').place(x = 175, y = 140)
 
 root.mainloop()
